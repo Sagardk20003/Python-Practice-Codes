@@ -13,3 +13,15 @@ print(tup1[2]) # Sagar
 
 # del -> Deletes the Complete tuple List.
 del tup1
+
+# Create a singleton Tuple:
+tup = (10,) # CornerCase -> (10) int DataType
+print(tup,type(tup)) # (10,) <class 'tuple'>
+
+new_tup = (10,20,30,40)
+# ele_1 = new_tup[0]
+# ele_2 = new_tup[1]
+#Unpacking of tuple
+ele1,ele2,ele3,ele4 = new_tup
+print(ele1,ele2,ele3,ele4) # 10 20 30 40
+print('value of ele',ele1) # 10
