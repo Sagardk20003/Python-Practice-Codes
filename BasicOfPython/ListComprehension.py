@@ -34,3 +34,10 @@ print(even_odd) # ['odd', 'even', 'odd']
 li = [[10,20],[30,40],[50,60]]
 new_li = [ele for sublist in li for ele in sublist]
 print(new_li) # [10, 20, 30, 40, 50, 60]
+
+r1 = 1
+r2 = 1
+r3 = 1
+sum = 2
+list = [[i,j,k] for i in range(r1+1) for j in range(r2+1) for k in range(r3+1) if i+k+j != sum]
+print(list)
