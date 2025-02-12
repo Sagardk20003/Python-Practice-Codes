@@ -2,7 +2,7 @@ d = {}
 n = int(input())
 for i in range(n):
     name,*score = input().split()
-    score = list (map(float,score))
+    score = list(map(float,score))
     d[name] = score
 target_name = input()
 for name,score in d.items():
